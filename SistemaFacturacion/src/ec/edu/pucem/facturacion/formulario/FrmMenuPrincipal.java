@@ -42,7 +42,7 @@ public class FrmMenuPrincipal extends JFrame {
 		mntmSalir.setFont(new Font("Segoe UI", Font.PLAIN, 16));
 		mntmSalir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				System.exit(0); // Salir de la aplicación
+				System.exit(0); 
 			}
 		});
 		mnArchivo.add(mntmSalir);
